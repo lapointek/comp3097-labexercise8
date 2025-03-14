@@ -58,6 +58,9 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" image="book" catalog="system" id="7tn-A1-0sX"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outletCollection property="textFields" destination="11T-bE-uyW" collectionClass="NSMutableArray" id="gCI-ME-c8s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
