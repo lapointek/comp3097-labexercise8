@@ -17,5 +17,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func addTask(_ sender: UIBarButtonItem){
+        let task = textFields[0].text ?? ""
+        
+        let contex = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let task = Task(context: context)
+        task.task = task
+        
+        tasks?.append(task)
+        
+        
+    }
 }
 
